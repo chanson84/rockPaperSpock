@@ -1,8 +1,10 @@
 $(document).ready(
     function () {
 
+window.addEventListener('DOMContentLoaded', () => {setup();});
+
 //Rules to win
-function winner(player1, player2){
+function Winner(player1, player2){
     if (player1 == 'rock'){
         if (player2 == 'scissors' || player2 =='lizard'){
             return true;}
@@ -29,9 +31,13 @@ function winner(player1, player2){
 }
 
     }
+    let compChoice = null;
+    let playerChoose = null;
+    let Score = [0,0];
+
     //A Set up function for choices, assigns images, onclick handler
     function setup(){
-       for (const k in winner){
+       for (const k in Winner){
         const div1 = document.createElement('div');
         const div2 = document.createElement('div');
         const img = document.createElement('img');
@@ -52,7 +58,7 @@ div2.id = 'ai' + k;
        }
        //Function for when the player makes a selection
         function selection(evt) {
-            for (const k in winner) {
+            for (const k in Winner) {
                 const node = document.getElementById(k);
                 node.parentNode.className = "base unselected";
             }
@@ -63,11 +69,11 @@ div2.id = 'ai' + k;
             compChoose(50);
         }
        function compChoose(delay) {
-for (const k in winner) {
+for (const k in Winner) {
     const node = document.getElementById(k);
     node.parentNode.className = "base unselected";
 }
-const possibleSelections = Object.keys(winner);
+const possibleSelections = Object.keys(Winner);
 const roll = Math.floor(Math.random() * possibleSelections.length);
 
 const choice = possibleSelections[roll];
@@ -83,6 +89,22 @@ if (delay<200) {
 }
        }
        function winnerResolve() {
-
+let desc = '';
+if (compChoice == playerChoose) {
+    desc = 'Tie Game'
+} else if (compChoice in Winner[playerChoose]) {
+    desc = 'Player Wins: ';
+    desc += (playerChoose + '' + Winner[playerChoose][compChoice] + '' + compChoice + '.');
+    Score[0] +=1;
+} else {
+    desc = 'You Lose!';
+    desc += (playerChoose + ' ' + Winner[playerChoose][compChoice] + ' '+ playerChoose +'.')
+    Score[1] += 1;
+}
        }
+       document.getElementById('description').innerText = desc;
+       updatedScore();
+    }
+    function isWinner(player1, player2) {
+        return player2 in Winner[player1];
     }
