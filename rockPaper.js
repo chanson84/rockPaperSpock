@@ -47,4 +47,42 @@ div2.id = 'ai' + k;
         div2.appendChild(div1);
         document.getElementById('selection').appendChild(div2);
        }
+       function updatedScore() {
+           document.getElementById('score').innerText = score[0] + ':' + score[1];
+       }
+       //Function for when the player makes a selection
+        function selection(evt) {
+            for (const k in winner) {
+                const node = document.getElementById(k);
+                node.parentNode.className = "base unselected";
+            }
+
+            evt.currentTarget.className = "base selected";
+            playerChoice = evt.currentTarget.id;
+
+            compChoose(50);
+        }
+       function compChoose(delay) {
+for (const k in winner) {
+    const node = document.getElementById(k);
+    node.parentNode.className = "base unselected";
+}
+const possibleSelections = Object.keys(winner);
+const roll = Math.floor(Math.random() * possibleSelections.length);
+
+const choice = possibleSelections[roll];
+const node = document.getElementById(choice);
+node.parentNode.classname = "base compSelected"
+           compChoose = choice;
+if (delay<200) {
+    setTimeout(() => {
+        compChoose(delay + 5);
+    }, delay);
+} else {
+    winnerResolve();
+}
+       }
+       function winnerResolve() {
+
+       }
     }

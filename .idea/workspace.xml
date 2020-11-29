@@ -61,7 +61,7 @@
       <option name="presentableId" value="Default" />
       <updated>1606598876297</updated>
       <workItem from="1606598877488" duration="1265000" />
-      <workItem from="1606667806077" duration="2947000" />
+      <workItem from="1606667806077" duration="5448000" />
     </task>
     <task id="LOCAL-00001" summary="Updated JS">
       <created>1606678316410</created>
@@ -70,7 +70,21 @@
       <option name="project" value="LOCAL" />
       <updated>1606678316410</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Updated JS">
+      <created>1606679468399</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606679468399</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Updated JS">
+      <created>1606679679489</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1606679679489</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,9 +114,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="714" y="219" key="Github.UntrackedFilesDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606612753819" />
-    <state x="-1304" y="271" key="Vcs.Push.Dialog.v2" timestamp="1606678318270">
+    <state x="-1304" y="271" key="Vcs.Push.Dialog.v2" timestamp="1606679681488">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1304" y="271" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1606678318270" />
+    <state x="-1304" y="271" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1606679681488" />
   </component>
 </project>
