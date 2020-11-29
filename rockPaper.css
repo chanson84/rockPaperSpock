@@ -1,5 +1,6 @@
 body { background: lightslategray;
-    margin: 0;
+    margin: auto;
+
 
 }
 #score{ color: white;
@@ -10,6 +11,11 @@ body { background: lightslategray;
 #description{
 color: white;
 }
+
+h1,h2,h3, p {
+    font-family: sans-serif;
+}
+
 
 h1 {color: white;
     display: flex;
