@@ -20,6 +20,8 @@ h1 {color: white;
 
 .container {
 display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .selection { display: flex;
     justify-content: center;
@@ -29,5 +31,15 @@ display: flex;
 img { margin: 0.5em;
     padding: 0.13em;
 
+}
+
+.unselected {
+    9px white;
+}
+.selected {
+    border: 9px darkblue;
+}
+.compSelected {
+    border: 9px purple;
 }
 
