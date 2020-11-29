@@ -42,7 +42,9 @@ function winner(player1, player2){
         div1.onclisck = (e) => {
             select(e);
         }
-
+div2.id = 'ai' + k;
+        div2.className = 'base unselected';
+        div2.appendChild(div1);
+        document.getElementById('selection').appendChild(div2);
        }
     }
-)
