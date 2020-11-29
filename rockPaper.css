@@ -1,25 +1,33 @@
-#score{
+body { background: lightslategray;
+    margin: 0;
 
+}
+#score{ color: white;
+    font-size: 5em;
+    align-items: center;
+    justify-content: center;
 }
 #description{
-
+color: white;
 }
 
-h1 {
+h1 {color: white;
+    display: flex;
+    text-align: center;
+
 
 }
 
 .container {
-
+display: flex;
 }
-.selection {
-
-}
-
-img {
+.selection { display: flex;
+    justify-content: center;
 
 }
 
-body {
+img { margin: 0.5em;
+    padding: 0.13em;
 
 }
+
