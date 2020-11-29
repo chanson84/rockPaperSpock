@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="51f39831-0f65-4941-8377-f854dd5f9add" name="Default Changelist" comment="">
+    <list default="true" id="51f39831-0f65-4941-8377-f854dd5f9add" name="Default Changelist" comment="Updated JS">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rockPaper.js" beforeDir="false" afterPath="$PROJECT_DIR$/rockPaper.js" afterDir="false" />
     </list>
@@ -43,12 +61,35 @@
       <option name="presentableId" value="Default" />
       <updated>1606598876297</updated>
       <workItem from="1606598877488" duration="1265000" />
-      <workItem from="1606667806077" duration="1802000" />
+      <workItem from="1606667806077" duration="2947000" />
     </task>
+    <task id="LOCAL-00001" summary="Updated JS">
+      <created>1606678316410</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606678316410</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Updated JS" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated JS" />
   </component>
   <component name="WindowStateProjectService">
     <state x="782" y="412" key="Github.ShareDialog" timestamp="1606612749585">
@@ -59,5 +100,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="714" y="219" key="Github.UntrackedFilesDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606612753819" />
+    <state x="-1304" y="271" key="Vcs.Push.Dialog.v2" timestamp="1606678318270">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1304" y="271" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1606678318270" />
   </component>
 </project>

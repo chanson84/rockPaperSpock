@@ -27,7 +27,22 @@ function winner(player1, player2){
        }
     }
 }
-        //all other functions (program logic)
 
+    }
+    //A Set up function for choices, assigns images, onclick handler
+    function setup(){
+       for (const k in winner){
+        const div1 = document.createElement('div');
+        const div2 = document.createElement('div');
+        const img = document.createElement('img');
+        img.src = k + '.png';
+        div1.id = k;
+        div1.className = 'base unselected';
+        div1.appendChild(img);
+        div1.onclisck = (e) => {
+            select(e);
+        }
+
+       }
     }
 )
