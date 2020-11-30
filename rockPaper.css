@@ -16,8 +16,8 @@ h1,h2,h3, p {
 
 
 h1 {color: white;
-    display: flex;
     text-align: center;
+    margin: auto;
 }
 
 .container {
@@ -32,7 +32,7 @@ display: flex;
 
 img { margin: 0.5em;
     padding: 0.13em;
-    max-height: 15px;
+    max-height: 150px;
 
 }
 
